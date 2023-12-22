@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('./fonts/gilroy-bold.otf');
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url('./fonts/gilroy-medium.otf');
+}
+
+
+@font-face {
+    font-family: HansonBold;
+    src: url('./fonts/HansonBold.ttf');
+}
+
+body {
+    background: linear-gradient(to bottom, #351a6f, #110c23), url(./slice/Polaris_bg.webp) no-repeat;
+    background-size: 100% 100%;
+    font-family: Gilroy-Medium;
+}
+
+.main {
+    padding: 0 300px;
+    margin-top: 40px;
+}
+
+.logMain {
+    background-color: rgba(57, 35, 125, 0.5);
+    color: #fff !important;
+}
+
+.txtColor {
+    color: #fff;
+}
+
+.inputColor {
+    background-color: rgba(75, 38, 190, 0.5);
+}
+
+.customize {
+    color: #ff9eff;
+}
+
+
+.runBtn {
+    width: 190px;
+    height: 40px;
+    background-image: linear-gradient(90deg,
+            #b347ff 0%,
+            #1b61ff 100%);
+    border-radius: 40px;
+    color: #fff;
+    font-family: Gilroy-Bold;
+}
+
+.clearBtn {
+    width: 145px;
+    height: 40px;
+    background-image: linear-gradient(90deg,
+            #b347ff 0%,
+            #1b61ff 100%);
+    border-radius: 40px;
+    color: #fff;
+    font-family: Gilroy-Bold;
+
+}
+
+.css-1yq3e2k-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #8170ff;
+}
+
+.MuiList-root {
+    background: #331a78;
+}
+
+.Mui-selected {
+    background: #5f39d4 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .runBtn {
+        width: 100%;
+    }
+
+    .fy {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .clearBtn {
+        width: 100%;
+    }
+
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.txtColorC {
+    color: #ccc;
+}
